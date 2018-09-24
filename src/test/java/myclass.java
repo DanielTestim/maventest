@@ -12,5 +12,6 @@ public class myclass {
 		driver.get("http://yoniflenner.net/Xamples/pizza");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
+		driver.quit();
   }
 }
